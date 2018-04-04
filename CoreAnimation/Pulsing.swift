@@ -84,4 +84,5 @@ class Pulsing: CALayer {
         self.animationGroup.animations = [createScaleAnimation(), createOpacityAnimation()]
     }
     
+    
 }

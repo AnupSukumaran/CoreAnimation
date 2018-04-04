@@ -23,6 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let tapGestRec = UITapGestureRecognizer(target: self, action: #selector(ViewController.addPulse))
         tapGestRec.numberOfTapsRequired = 1
         avatarImage.addGestureRecognizer(tapGestRec)
+        print("NewData")
     }
     
     @objc func addPulse() {
